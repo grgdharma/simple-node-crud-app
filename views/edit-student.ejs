@@ -1,0 +1,27 @@
+<% include partials/header.ejs %>
+
+<div class="mt-10">
+   
+    <% if (student) { %>
+        <form action="" method="post" enctype="multipart/form-data">
+            
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" class="form-control" name="first_name" id="first-name" value="<%= student.first_name %>" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" class="form-control" name="last_name" id="last-name" value="<%= student.last_name %>" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Number</label>
+                <input type="number" class="form-control" name="number" id="number" placeholder="Number" value="<%= student.number %>" required>
+            </div>
+            <button type="submit" class="btn btn-success">Update</button>
+        </form>
+    <% } else { %>
+        <p class="text-center">Player Not Found. Go <a href="/add">here</a> to add student.</p>
+    <% } %>
+</div>
+
+<% include partials/footer.ejs %>
