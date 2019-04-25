@@ -1,5 +1,5 @@
 # Simple CRUD application using Node JS and MySQL
-<p><b>Prerequisites</b></p>
+<p><b>1. Prerequisites</b></p>
 <ul>
   <li>Installed <a href="https://nodejs.org/en/" target="_blank"> Node JS </a>on your PC.</li>
   <li>Basic Knowledge of <a href="https://nodejs.org/en/" target="_blank"> Node JS </a> and <a href="https://expressjs.com/" target="_blank"> Express JS.</a></li>
@@ -7,10 +7,10 @@
   <li>Installed <a href="https://www.apachefriends.org/download.html" target="_blank">xampp</a> on your PC.</li>
   <li>Understand how to  use templating engines ( Jade, Vash,EJS etc.). We are using ejs</li>
 </ul>
-<p><b>Initialize the Project</b></p>
+<p><b>2. Initialize the Project</b></p>
 <p>Open your command prompt in your project directory and type the command below:</p>
 <p><b> npm init </b></p>
-<p><b>Install required modules.</b></p>
+<p><b>3. Install required modules.</b></p>
 <p>The following modules are to be needed</p>
 <ul>
   <li><a href="https://www.npmjs.com/package/express" target="_blank">express</a>: used to create handle routing and process requests from the client.</li>
