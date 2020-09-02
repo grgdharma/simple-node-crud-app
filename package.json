@@ -4,11 +4,11 @@
   "description": "Simple CRUD application using node.js",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
     "express-fileupload": "^1.1.9",
-    "mysql": "^2.17.1",
+    "mysql": "^2.18.1",
     "req-flash": "0.0.3"
   },
   "devDependencies": {
